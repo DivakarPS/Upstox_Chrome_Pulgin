@@ -62,6 +62,3 @@ A Chrome extension to authenticate users via the Upstox API and fetch live stock
 3. **Displaying Data**:
    - The stock data is displayed in the popup window dynamically.
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.
-
