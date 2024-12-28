@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Upstox Stock Data Fetcher",
+    "version": "1.0",
+    "description": "Fetch and display stock data from Upstox.",
+    "permissions": ["identity", "storage"],
+    "host_permissions": ["https://api.upstox.com/*"],
+    "oauth2": {
+      "client_id": "26e551bd-a1ad-4df6-85c2-01aac24507e1",
+      "scopes": ["read"]
+    },
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
