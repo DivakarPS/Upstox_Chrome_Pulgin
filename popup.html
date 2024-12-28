@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upstox Stock Fetcher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px; /* Increased padding */
+      min-width: 350px; /* Minimum width */
+      box-sizing: border-box; /* Include padding in width calculations */
+    }
+    h1 {
+      font-size: 1.4em; /* Adjusted header size */
+      margin-bottom: 10px;
+    }
+    #output {
+      margin-top: 15px;
+      white-space: pre-wrap;
+      font-size: 15px; /* Increased font size */
+      color: #333;
+      background-color: #f8f9fa;
+      border: 1px solid #ccc;
+      padding: 15px; /* Increased padding */
+      border-radius: 8px; /* More rounded corners */
+      line-height: 1.6; /* Increased line height */
+      overflow-wrap: break-word; /* Allow wrapping long words */
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px; /* Increased button padding */
+      border: none;
+      border-radius: 6px; /* Slightly more rounded button corners */
+      cursor: pointer;
+      font-size: 1em; /* Keep button font size consistent */
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Upstox Stock Fetcher</h1>
+  <button id="fetchStockData">Fetch Stock Data</button>
+  <div id="output"></div>
+</body>
+<script src="popup.js"></script>
+</html>
